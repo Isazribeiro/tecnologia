@@ -1,45 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CINEGHIBLI</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
 
-<iframe width="560" height="315" src="<iframe width="560" height="315" src="https://www.youtube.com/embed/-Zk7Y-8mf6Q?si=29NQefURsv6j5veQ" title=Este é um espaço criado especialmente para os apaixonados pelo universo encantado do **Studio Ghibli**. Aqui você pode explorar os clássicos que marcaram gerações, conhecer curiosidades e assistir aos trailers dos filmes que deram vida a tantas histórias inesquecíveis.</iframe>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>CINEGHIBLI</title>
+    .categoriavideos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .categoriavideos a img {
+      width: 200px;
+      height: auto;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+
+    .categoriavideos a img:hover {
+      transform: scale(1.05);
+    }
+  </style>
 </head>
+<body>
+  <header>
+    <h1>CINEGHIBLI</h1>
+    <p>Este é um espaço criado especialmente para os apaixonados pelo universo encantado do <strong>Studio Ghibli</strong>.</p>
+  </header>
 
-<body>   <section>
+  <!-- Vídeo principal -->
+  <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/-Zk7Y-8mf6Q" 
+    title="Trailer Studio Ghibli" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+
+  <!-- Outros vídeos -->
+  <section>
     <h2>Outros vídeos</h2>
     <div class="categoriavideos">
-
-        <a href="https://www.youtube.com/watch?v=92a7Hj0ijLs" target="_blank">
-            <img src="https://img.youtube.com/vi/92a7Hj0ijLs/maxresdefault.jpg" alt="Trailer Meu Amigo Totoro" />
-        </a>
-
-        <a href="https://www.youtube.com/watch?v=iwROgK94zcM" target="_blank">
-            <img src="https://img.youtube.com/vi/iwROgK94zcM/maxresdefault.jpg" alt="Trailer A Viagem de Chihiro" />
-        </a>
-
-        <a href="https://www.youtube.com/watch?v=4OiMOHRDs14" target="_blank">
-            <img src="https://img.youtube.com/vi/4OiMOHRDs14/maxresdefault.jpg" alt="Trailer Princesa Mononoke" />
-        </a>
-
-        <a href="https://www.youtube.com/watch?v=iwROgK94zcM" target="_blank">
-            <img src="https://img.youtube.com/vi/iwROgK94zcM/maxresdefault.jpg" alt="Trailer Castelo Animado" />
-        </a>
-
-        <a href="https://www.youtube.com/watch?v=9CtIXPhPo0g" target="_blank">
-            <img src="https://img.youtube.com/vi/9CtIXPhPo0g/maxresdefault.jpg" alt="Trailer O Serviço de Entregas da Kiki" />
-        </a>
-
+      <a href="https://www.youtube.com/watch?v=92a7Hj0ijLs" target="_blank">
+        <img src="https://img.youtube.com/vi/92a7Hj0ijLs/maxresdefault.jpg" alt="Meu Amigo Totoro">
+      </a>
+      <a href="https://www.youtube.com/watch?v=iwROgK94zcM" target="_blank">
+        <img src="https://img.youtube.com/vi/iwROgK94zcM/maxresdefault.jpg" alt="A Viagem de Chihiro">
+      </a>
+      <a href="https://www.youtube.com/watch?v=4OiMOHRDs14" target="_blank">
+        <img src="https://img.youtube.com/vi/4OiMOHRDs14/maxresdefault.jpg" alt="Princesa Mononoke">
+      </a>
+      <a href="https://www.youtube.com/watch?v=iwROgK94zcM" target="_blank">
+        <img src="https://img.youtube.com/vi/iwROgK94zcM/maxresdefault.jpg" alt="Castelo Animado">
+      </a>
+      <a href="https://www.youtube.com/watch?v=9CtIXPhPo0g" target="_blank">
+        <img src="https://img.youtube.com/vi/9CtIXPhPo0g/maxresdefault.jpg" alt="O Serviço de Entregas da Kiki">
+      </a>
     </div>
-</section>Cineghibli</header>
-  <h1></h1>
+  </section>
 </body>
-
 </html>
-

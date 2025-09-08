@@ -1,6 +1,6 @@
 body {
     color: rgb(255, 254, 254);
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     font-family: 'Roboto', sans-serif;
     justify-content: flex-start;
     padding: 50px;
@@ -8,23 +8,18 @@ body {
 
 .categoriavideos {
   display: flex;
-  flex-wrap: wrap; /* Permite que os itens se ajustem para a linha seguinte */
-  justify-content: flex-start; /* Alinha os itens à esquerda */
-  gap: 15px; /* Espaçamento entre os itens */
+  flex-wrap: wrap; /*Permite que os itens quebrem para a próxima linha quando necessário*/
+  justify-content: flex-start; /*alinha os itens à esquerda*/
+  gap: 15px; /*espaçamento entre os itens*/
   margin-top: 20px;
 }
 
-.categoriavideos a {
-  flex: 1 0 20%; /* Faz com que cada vídeo ocupe até 20% da largura do contêiner */
-  max-width: 200px; /* Limita a largura de cada vídeo */
-  box-sizing: border-box; /* Garante que o padding e o margin não estiquem o tamanho do item */
-}
-
 .categoriavideos a img {
-  width: 100%; /* A imagem vai ocupar 100% da largura do seu contêiner */
+  width: 200px;
   height: auto;
   border-radius: 8px;
   transition: transform 0.3s;
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do seu contêiner */
 }
 
 .categoriavideos a img:hover {

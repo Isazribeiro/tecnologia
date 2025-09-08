@@ -15,12 +15,13 @@ body {
 }
 
 .categoriavideos a img {
-  width: 200px;
-  height: auto;
-  border-radius: 8px;
-  transition: transform 0.3s;
-  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do seu contêiner */
+    width: 30%; /* Ajuste a largura para 30% da largura do contêiner */
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
 }
+
 
 .categoriavideos a img:hover {
   transform: scale(1.05);

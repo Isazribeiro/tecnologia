@@ -6,20 +6,37 @@ body {
     padding: 50px;
 }
 
+header{
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(22, 24, 26);}
+
+.chamada{
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto {
+    margin-right: 5%;
+} 
+
 .categoriavideos {
   display: flex;
-  flex-wrap: wrap; /*Permite que os itens quebrem para a próxima linha quando necessário*/
-  justify-content: flex-start; /*alinha os itens à esquerda*/
-  gap: 15px; /*espaçamento entre os itens*/
+  flex-wrap: wrap; 
+  justify-content: flex-start; 
+  gap: 15px; 
   margin-top: 20px;
 }
 
 .categoriavideos a img {
-    width: 30%; /* Ajuste a largura para 30% da largura do contêiner */
+    width: 30%;      
     height: auto;
     border-radius: 8px;
     transition: transform 0.3s;
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    max-width: 100%;
 }
 
 

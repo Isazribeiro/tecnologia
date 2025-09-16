@@ -7,22 +7,31 @@ body {
 
 .categoriavideos {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 15px;
+  flex-wrap: wrap; 
+  gap: 15px;      
   margin-top: 20px;
 }
 
-
-.categoriavideos iframe {
-  width: 300px;     
-  height: 170px;     
+.categoriavideos a {
+  flex: 1 1 200px;
+  max-width: 300px;
   border-radius: 8px;
+  overflow: hidden;
   transition: transform 0.3s;
 }
 
-.categoriavideos iframe:hover {
+.categoriavideos a:hover {
   transform: scale(1.05);
 }
+
+.categoriavideos img {
+  width: 100%;
+  display: block;
+}
+
+
+
+
+
 
 

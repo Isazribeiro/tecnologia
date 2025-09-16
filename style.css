@@ -10,22 +10,3 @@ body {
     gap: 15px;
     margin-top: 20px;
 }
-
-.categoriavideos a {
-  flex: 0 0 250px;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: transform 0.3s ease;
-}
-
-.categoriavideos a:hover {
-  transform: scale(1.05);
-}
-
-.categoriavideos img {
-  width: 100%;
-  height: 140px;
-  object-fit: cover;
-  display: block;
-  border-radius: 8px;
-}

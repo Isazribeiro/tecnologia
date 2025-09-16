@@ -7,14 +7,14 @@ body {
 
 .categoriavideos {
   display: flex;
-  flex-wrap: wrap; 
-  gap: 15px;      
-  margin-top: 20px;
+  flex-wrap: nowrap;       
+  gap: 15px;              
+  overflow-x: auto;         
+  padding-bottom: 10px;
 }
 
 .categoriavideos a {
-  flex: 1 1 200px;
-  max-width: 300px;
+  flex: 0 0 250px;           
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.3s;
@@ -27,6 +27,9 @@ body {
 .categoriavideos img {
   width: 100%;
   display: block;
+  border-radius: 8px;
+}
+
 }
 
 

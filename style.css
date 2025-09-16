@@ -1,4 +1,4 @@
-body{
+body {
   color: rgb(0, 0, 0);
   background-color: rgb(255, 248, 248);
   font-family: 'Roboto', sans-serif;
@@ -13,13 +13,16 @@ body{
   margin-top: 20px;
 }
 
-.categoriavideos a img {
-  width: 200px;
-  height: auto;
+
+.categoriavideos iframe {
+  width: 300px;     
+  height: 170px;     
   border-radius: 8px;
   transition: transform 0.3s;
 }
 
-.categoriavideos a img:hover {
+.categoriavideos iframe:hover {
   transform: scale(1.05);
+}
+
 }

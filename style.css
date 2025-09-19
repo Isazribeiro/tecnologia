@@ -25,4 +25,10 @@ body {
   transform: scale(1.05);
 }
 
-.cate
+.categoriavideos img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
